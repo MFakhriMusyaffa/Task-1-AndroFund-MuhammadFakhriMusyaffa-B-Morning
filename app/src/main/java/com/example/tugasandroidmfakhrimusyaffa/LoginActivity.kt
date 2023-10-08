@@ -20,10 +20,10 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
         etEmail = findViewById(R.id.edt_email)
         etPassword = findViewById(R.id.edt_password)
 
-        val bundle = intent.extras
-        if (bundle != null){
-            etEmail.setText(bundle.getString("email"))
-            etPassword.setText(bundle.getString("password"))
+        val bundlez = intent.extras
+        if (bundlez != null){
+            etEmail.setText(bundlez.getString("email"))
+            etPassword.setText(bundlez.getString("password"))
         }
 
         val btnLogin: Button = findViewById(R.id.btn_login)

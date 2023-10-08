@@ -27,11 +27,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         val email = intent.getParcelableExtra<User>("User")?.email
-        val password = intent.getParcelableExtra<User>("User")?.password
+        val kataSandi = intent.getParcelableExtra<User>("User")?.password
         tv.text = """Silahkan cek kembali
             |
             |Email : $email
-            |Password : $password
+            |Password : $kataSandi
             |
             |Apakah perlu disimpan?
         """.trimMargin()

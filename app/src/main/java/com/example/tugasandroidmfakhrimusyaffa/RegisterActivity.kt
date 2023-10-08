@@ -24,8 +24,8 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
         etConfirmPassword = findViewById(R.id.edt_confirm_password)
 
 
-        val btnRegister: Button = findViewById(R.id.btn_register)
-        btnRegister.setOnClickListener(this)
+        val btnDaftar: Button = findViewById(R.id.btn_register)
+        btnDaftar.setOnClickListener(this)
     }
 
     override fun onClick(v: View) {
